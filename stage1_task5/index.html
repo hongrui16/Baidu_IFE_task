@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>百度前端技术学院task1</title>
+	<link href="./css/index.css" rel="stylesheet" />
+</head>
+<body>
+	<header class="header">
+		<img src="./image/1.png" id="headImg">
+		<ul type="disc">
+			<li><a href="http://www.3ddayin.net/news/">导航链接一</a></li>
+			<li><a href="http://3dp.uggd.com/news/">导航链接二</a></li>
+			<li><a href="http://3dprint.ofweek.com/">导航链接三</a></li>
+			<li><a href="http://www.nanjixiong.com/" class="unClkUrl">导航链接四</a></li>
+		</ul>
+	</header>
+
+	<aside>
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<h3 style="display: none">侧栏注册窗口标题</h3>
+		<form>
+			<div class="divPart">
+				<div>
+					<span>请输入邮箱地址 </span>
+					<input type="text" name="mailAddr" value="这是一个文本输入框" />
+				</div>
+				<div>
+					<span></span>
+					<tips class="tips">邮箱地址请按要求格式输入</tips>
+				</div>
+			</div>
+			<div class="divPart">
+				<div>
+					<span>请输入密码 </span>
+					<input type="password" name="password1" value="这是一个文本输入框" />
+				</div>
+				<div>
+					<span>请重复输入密码 </span>
+					<input type="password" name="password2" value="这是一个文本输入框" />
+				</div>
+				<div>
+					<span></span>
+					<tips class="tips">密码请为6-16位英文数字</tips>
+				</div>
+			</div>
+			<div class="divPart">
+				<div>
+					<span>性别 </span>
+					<input type="radio" name="sex" value="male" checked="checked" />男<input type="radio" name="sex" value="female" />女
+				</div>
+				<div>
+					<span>城市 </span>
+			    	<select>
+			    	  	<option value="shanghai">上海</option>
+					  	<option value="beijing" selected="selected">北京</option>
+					  	<option value="shenzhen">深圳</option>
+			    	</select>
+			    </div>
+			    <div>
+			    	<span>爱好 </span>
+			    	<input type="checkbox" name="sports">运动</input>
+					<input type="checkbox" name="art">艺术</input>
+					<input type="checkbox" name="science">科学</input>
+				</div>
+				<div>
+					<span>个人描述 </span>
+					<textarea>这是一个多行输入框，输入您的个人描述</textarea>
+				</div>
+				<div>
+					<input type="submit" value="确认提交" class="submitBtn" />
+				</div>
+			</div>
+		</form>
+	</aside>
+
+	<main class="main">
+		<article class="article">
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="atlInfo">
+				<span>文章作者：</span>
+				<span>文章发表时间：</span>
+			</p>
+			<p style="text-indent: 24px">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			换行了<br />
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br />
+			这是一个很长的段落，这是一个很长的段落，<a href="www.ife.baidu.com">链接到ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<strong>这里有一个粗体字</strong>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			</p>
+			<img src="./image/2.png" alt="2016年加油" class="paragImg">
+			<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了
+			</p>
+			<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<strong>这里有一个粗体字</strong>这是一个很长的段落，这是一个很长的段落，<a href="www.ife.baidu.com" target="_blank">点击在新窗口链接到ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			</p>
+		</article>
+
+		<article class="article">
+			<h2>另一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="atlInfo">
+				<span>文章作者：</span>
+				<span>文章发表时间：</span>
+			</p>
+			<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+			<br />换行了<br />
+			这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br />
+			这是一个很长的段落，这是一个很长的段落，<a href="www.ife.baidu.com">链接到ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<strong>这里有一个粗体字</strong>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			</p>
+			<img src="./image/2.png" alt="2016年加油" class="paragImg">
+			<ul style="list-style: none;">
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+			</article>
+
+		<article class="article">
+			<h2>图片</h2>
+			<ul class="picList">
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+				<li><p>好看的图片</p><img src="./image/2.png" alt="2016年加油"></li>
+			</ul>
+		</article>
+
+		<article class="article">
+			<h2>最后一篇文章标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="atlInfo">
+				<span>文章作者：</span>
+				<span>文章发表时间：</span>
+			</p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<table class="myTable">
+				<caption>下面是一个表格</caption>
+				<thead>
+					<tr>
+						<th style="width: 40%">项目</th>
+						<th style="width: 40%">金额数</th>
+						<th style="width: 20%">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>obj1</td>
+						<td>300</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>obj2</td>
+						<td>100</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>obj3</td>
+						<td>200</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>obj4</td>
+						<td>400</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr class="btmTr">
+						<td>总计</td>
+						<td colspan="2">1000</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</main>
+
+	<footer class="footer">
+		<p>版权所有&copy; by 多巴实验室</p>
+	</footer>
+</body>
+</html>
